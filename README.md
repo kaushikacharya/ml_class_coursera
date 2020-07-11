@@ -35,3 +35,10 @@ https://www.coursera.org/learn/machine-learning
 
 * [Statement of Accomplishment](https://kaushikacharya.github.io/documents/course_completion_certificates/Coursera_Certificate_Machine_Learning.pdf)
 * [Grades Achieved: 98.2 %](https://kaushikacharya.github.io/documents/course_completion_certificates/coursera_grades.png)
+
+
+#### Related Courses
+
+* [Neural Networks for Machine Learning](https://github.com/kaushikacharya/Neural_Networks_for_Machine_Learning)
+* [Distributed Machine Learning with Apache Spark](https://github.com/kaushikacharya/Distributed_Machine_Learning_with_Apache_Spark_CS120x_edx)
+
