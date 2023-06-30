@@ -70,3 +70,29 @@
         - Typically may suffer from underfitting.
       - Complex model with very many parameters:
         - May suffer from large variance (but have smaller bias) and thus overfitting.
+
+## Chapter 9: Regularization and Model Selection
+
+- $J_\lambda(\theta) = J(\theta) + \lambda R(\theta)$
+  - $J_\lambda$: Regularized loss
+  - $\lambda$: Regularization parameter
+  - $R(\theta)$: Regularizer
+- $R(\theta)$:
+  - Typically chosen to be some measure of the complexity of the model $\theta$.
+- Aim: To find a model that both 
+  - Fit the data, and
+  - Have a small model complexity.
+- Implicit regularization effect
+  - New concept / phenomenon observed in deep learning.
+  - The optimizers can implicitly impose structures on parameters beyond what has been imposed by the regularized loss.
+  - Multiple (approximate) global minima
+    - Different optimizers may converge to different global minima.
+      - Many commonly used optimizers (or their components) prefer or bias towards finding global minima of certain properties.
+    - Though these have same or similar traning losses, they may have different nature and different generalization performance.
+- Bayesian statistics and regularization
+  - View of $\theta$:
+    - Frequentist's view:
+      - Constant valued but unknown.
+    - Bayesian's view:
+      - Random variable whose value is unknown.
+      - Specify a prior distribution $p(\theta)$ that expresses our prioir beliefs about the parameters.
